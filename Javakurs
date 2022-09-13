@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <script>
+        /*
+        var sayi = 1;
+        console.log(sayi);
+
+        var sayi2 = 20;
+        var sayi3 = 20;
+        var toplam1 = sayi2 + sayi3;
+        console.log(toplam1);
+
+        var ad = "ALPEREN"
+        var soyad = "Tosun"
+        var toplam = ad + " " + soyad;
+        console.log(toplam)
+
+        var yiyecek = "Köfte"
+        var icecek = "Ayran"
+        var tatli = "Künefe"
+
+        var menu = "Menünüz Yiyecek:" + yiyecek + " İçecek: " + icecek + " Tatlı: " + tatli;
+        console.log(menu);
+
+        var isimler = ["Alperen", "Tosun", "ALİ",];
+        console.log(isimler[0]);
+
+        sayi = 3;
+        if (sayi < 10) {
+            console.log("Sayı 10dan küçüktür");
+        } else if (sayi > 10) {
+            console.log("Sayı 10dan büyüktür");
+        } else {
+            console.log("Sayı eşitttir");
+        }
+
+        var vize = 60;
+        var final = 60;
+        var ort = vize + final / 2;
+
+        if (ort < 60) {
+            console.log("Kaldı");
+        } else if (ort >= 60) {
+            console.log("Geçti")
+        }
+        sayi = 1;
+        while (sayi < 5) {
+            console.log(sayi);
+            sayi = sayi + 1;
+        }
+        */
+/*
+        var numara = 70;
+        if (numara >= 50) {
+            while (numara <= 100) {
+                console.log(numara);
+                numara = numara + 1;
+            }
+        }
+        else {
+            while (numara >=0) {
+                console.log(numara);
+                numara = numara - 1;
+            }
+        } */
+        /*
+
+        var numara2 =90;
+        var donguSayisi=0;
+        var sonuc=0;
+        while(donguSayisi<=numara2){
+            sonuc=donguSayisi %2;
+            if(sonuc==0){
+                console.log(donguSayisi);
+            }
+            donguSayisi++;
+        } 
+
+        var numara3=90;
+        
+        var modsonuc=0;
+        while(numara3>=0){
+            modsonuc=numara3 %2;
+            if(modsonuc==1){
+                console.log(numara3);
+            }
+            numara3--;
+        } 
+
+        var sayi1=33;
+        var sayi2=100;
+        var toplam=0;
+
+        while(sayi1<=sayi2){
+            var modsonuc=sayi1 %2;
+            if(modsonuc==0){
+                toplam=toplam+sayi1;
+            }
+            sayi1++;
+        }
+        console.log(toplam);      */
+        /*
+        var sayi1=10;
+        var sayi2=30;
+        var toplam =0;
+        
+        while(sayi1<=sayi2){
+            var modsonuc=sayi1 %2;
+            if(modsonuc==0){
+                console.log(modsonuc*modsonuc);
+            }
+            sayi1++;
+            
+        } */
+
+        //İLK GÜN 50 TOPLAM 900 SAYFALIK KİTABI İLK GÜN 50 SAYFA OKUDUKTAN SONRA HER GÜN 30 OKUYUNCA KAÇ GÜNDE BİTER PROGRAM
+        /*
+        var ilkGunOkunan=50;
+        var kitapToplamSayfa=900;
+        var herGunOkunan=30;
+        var kalanSayfa=kitapToplamSayfa-ilkGunOkunan;
+        var gun=1;
+        
+        while(kalanSayfa>0){
+            kalanSayfa=kalanSayfa-herGunOkunan;
+            gun++;
+        }
+        console.log(+gun+" gün sonra biter"); */
+
+        //50 İLE 100 ARASINDAKİ 3 E BÖLÜNEN SAYILARIN TOPLAMI
+
+        /*
+        var baslanacakSayi=50;
+        var donguSayi=100;
+        var bitecekSayi=100;
+        var ucMod=0;
+        var sayilarToplami=0;
+        while(donguSayi<bitecekSayi){
+            ucMod=donguSayi%3;
+            if(ucMod==0){
+                sayilarToplami=sayilarToplami+donguSayi;
+            }
+            donguSayi++;
+        }
+        console.log(baslanacakSayi+" ile "+bitecekSayi+" arasındaki 3e tam bölünebilen sayıların toplamı:"+sayilarToplami+"dır.");
+
+
+        var */
+
+        /*
+        var urunAdi="Logitech G930 Kulaklık";
+        var urunFiyat=1000;
+        var urunAdet=3;
+        var kdvBilgisi=18;
+        var toplamFiyat=urunAdet*urunFiyat;
+        var kdv18=(toplamFiyat/100)*kdvBilgisi;
+        var genelToplam=toplamFiyat+kdv18;
+
+        console.log(urunAdi+" isimli ürünün adet fiyatı"+urunFiyat+"tl"+urunAdet+"adet alınırsa toplam fiyat"+toplamFiyat+"tl+kdv"+kdv18+"tl,genel toplam:"+ genelToplam+"tldir");
+        */
+
+        //FOR DÖNGÜSÜ GİRİŞ
+
+        /*
+        var sayi=20;
+        while(sayi<30){
+            console.log(sayi);
+            sayi++;
+        }
+        
+        for(i=1;i<=10;i++){
+            console.log(i);
+        }
+        
+        
+        var ilkGunOkunan=50;
+        var kitapToplamSayfa=900;
+        var herGunOkunan=30;
+        var kalanSayfa=kitapToplamSayfa-ilkGunOkunan;
+        var gun=1;
+
+        for(i=kalanSayfa;i>0;i=i-herGunOkunan){
+            gun++;
+        }
+        console.log(gun+"sonra biter"); */
+
+
+        //FUNCTİONLARA GİRİŞŞ
+        //parametresiz function /*
+
+        /*
+        function MerhabaDe(){
+            console.log("Merhaba Dünya");
+        }
+        MerhabaDe();
+
+        function ToplamaIslemi(sayi1,sayi2){
+            toplam=sayi1+sayi2;
+            console.log(toplam)
+        }
+        ToplamaIslemi(20,30);
+
+        //PARAMETRELİ DEFAULT FUNCTİON
+        function ToplamaIslemi2(sayi1=0,sayi2=0){
+            toplam=sayi1+sayi2;
+            console.log(toplam)
+        }
+        ToplamaIslemi2(50,85); */
+
+        /*
+
+        function KacGundeBiter(KitapAdi,toplamSayfaSayisi,ilkGunOkunan,herGunOkunan){
+            var kalanSayfa=toplamSayfaSayisi-ilkGunOkunan;
+            var gun=1;
+
+            while(kalanSayfa>0){
+                kalanSayfa=kalanSayfa-herGunOkunan;
+                gun++;
+            }
+            console.log(KitapAdi+" isimli kitap "+toplamSayfaSayisi +" sayfadır"+"ilk gün "+ilkGunOkunan+" sayfa okunmuştur"+" her gün "+herGunOkunan+" sayfa okunmuştur "+gun+" günde bitmiştir")
+        }
+        KacGundeBiter("Yüzüklerin efendisi","520","50","30")
+        KacGundeBiter("İki Kule","600","50","60")
+
+        
+
+        function tamBolunebilenleriBul(ilkSayi,sonSayi,bolunecekSayi){
+            var kalan=0;
+            var toplam=0;
+            var toplamYanaYazdir=" ";
+            for(i=ilkSayi;i<sonSayi;i++){
+                kalan=i % bolunecekSayi;
+                if(kalan==0){
+                    toplam+=i;
+                    toplamYanaYazdir+=" "+i;
+                }
+            }
+        }
+        console.log(bolunecekSayi+"tam bölünebilen sayilar:"+toplamYanaYazdir);
+        console.log(ilkSayi+"ile"+sonSayi+"arasındaki "+bolunecekSayi+"'e tam bölünebilen sayıların toplamı:"+toplam+"dır");
+
+        */
+
+        //DEĞER DÖNDÜREN FONKSİYONLAR
+        /*
+        function MerhabaEkle(isim){
+            return isim;
+        }
+        var isim=MerhabaEkle("Alperen Tosun");
+        console.log(isim); */
+        /*
+        function DolarTlCevir(ucret){
+            var kurbilgisi=18.30;
+            return ucret *kurbilgisi;
+            
+        }
+        function KonteynirFiyatHesapla(konteynirNo,gun){
+            if(gun<5){
+                var gunlukFiyat =10;
+            }
+            else if (gun < 10){
+                var gunlukFiyat=15;
+            }else{
+                gunlukFiyat=20;
+            }
+        
+        var toplamFiyat=gun*gunlukFiyat;
+        var tlFiyat=DolarTlCevir(toplamFiyat);
+        console.log(konteynirNo+"numaralı konteynırın,"+gun+"gün bekleme süresi sonucunda günlük fiyat"+gunlukFiyat+"$ üzerinden toplam fiyatı"+tlFiyat+"tldir");
+        }
+
+        KonteynirFiyatHesapla(12321311,3); */
+
+        //FİYAT HESAP PROGRAM
+        /*
+
+        function OtomatFiyatHesapla(UrunKodu,Para){
+       
+            
+           if(UrunKodu==1){
+            var urunAdi="Cips"
+            var ucret=4;
+           }else if(UrunKodu=2){
+            var urunAdi="kola"
+            var ucret=8;
+           }else if(UrunKodu=3){
+            var urunAdi="m.suyu"
+            var ucret=2;
+           }else if(UrunKodu=4){
+            var urunAdi="şeker"
+            var ucret=2;
+           }else if(UrunKodu=5){
+            var urunAdi="çikolata"
+            var ucret=7;
+           }else if(UrunKodu=6){
+            var urunAdi="su"
+            var ucret=2;
+           }
+           var paraUstu=Para*ucret;
+        console.log(Para+"tl yüklediniz,sectiginiz ürün "+urunAdi+"sectiginiz urun fiyati"+ucret+" para ustunuz"+paraUstu);
+        }
+        
+        OtomatFiyatHesapla(10,5); 
+
+        function KenarHesap(UzunKenar,KısaKenar){
+            var Alani=UzunKenar*KısaKenar;
+            var Cevre=(UzunKenar+KısaKenar)*2;
+            console.log(Alani+"Alanıdır."+Cevre+"cevresidir");
+        }
+        KenarHesap(5,3);
+        */
+
+        // ÖDEV SORU 1 : Bir function'a gönderilen 2 sayının arasındaki tam sayıların çarpımını ekrana yazdıran uygulama. 
+
+        // ÖDEV SORU 2 : Bir function'a gönderilen vize ve final notunun ortalamasını alıp 55 ten küçükse kaldı, 70 ve 70 ten büyükse geçti 55 ile 70 arasında ise Büte kaldı yazan uygulama.
+
+        // ÖDEV SORU 3 : EnKucukSayiBul isimli function'a gönderilen 3 adet sayı değerinden, sayıların en küçüğünü bulup ekrana yazdıran uygulama.
+
+        /*
+        function NotOrtalamaHesaplama(vize,final){
+            var ortalama=(vize+final)/2;
+            if(ortalama<55){
+                console.log(ortalama+"Notu ile kalmıştır.")
+            }else if(ortalama>55 && ortalama<70){
+                console.log(ortalama+"Notu ile büte kaldı.")
+            }else if(ortalama>70 && ortalama>70){
+                console.log(ortalama+"Notu ile geçti")
+            }else{
+                console.log(ortalama+"Notu ile geçti")
+            }
+        }
+        NotOrtalamaHesaplama(70,70); */
+
+        function EnKucukSayiBul(sayi1,sayi2,sayi3){
+            if(sayi1<sayi2 && sayi3){
+                console.log(sayi1+"En küçük sayidir")
+            }else if(sayi2<sayi1&&sayi3){
+                console.log(sayi2+"En küçük sayidir")
+            }else if(sayi3<sayi1&&sayi2){
+                console.log(sayi3+"En küçük sayidir")
+            }else{
+                console.log("Sayilar birbirine eşittir.")
+            }
+        }
+        EnKucukSayiBul(10,5,11);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+       
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>
